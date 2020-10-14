@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import { CacheProvider } from '@emotion/core';
 import { cache, injectGlobal } from 'emotion';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 injectGlobal`
   ${require('../scss/style.scss')}
@@ -34,25 +35,16 @@ function MyApp({ Component, pageProps }) {
 					>
 						<ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
 							<li>
-								<a href="#pr__hero">Home</a>
+								<AnchorLink href="#pr__services">Services</AnchorLink>
 							</li>
 							<li>
-								<a href="#pr__services">Services</a>
+								<AnchorLink href="#pr__works">Works</AnchorLink>
 							</li>
 							<li>
-								<a href="#pr__works">Works</a>
+								<AnchorLink href="#pr__about">About</AnchorLink>
 							</li>
 							<li>
-								<a href="#pr__about">About</a>
-							</li>
-							<li>
-								<a href="#pr__clients">Clients</a>
-							</li>
-							<li>
-								<a href="#pr__blog">Blog</a>
-							</li>
-							<li>
-								<a href="#pr__contact">Contact</a>
+								<AnchorLink href="#pr__contact">Contact</AnchorLink>
 							</li>
 						</ul>
 					</nav>
