@@ -1,7 +1,11 @@
-// xs — Extra Small Screens
-@media (min-width: 320px) {
+// s — Small Screens
+@media (max-width: 639px) {
+	/* Mobile Navbar */
+	.pr__header .inner .logo .brand {
+		margin-top: 2rem;
+		width: 70% !important;
+	}
 }
-
 // s — Small Screens
 @media (min-width: 640px) {
 	/* Mobile Navbar */

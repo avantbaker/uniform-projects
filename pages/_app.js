@@ -24,11 +24,11 @@ function MyApp({ Component, pageProps }) {
 				data-uk-offcanvas="overlay: true; flip: true; mode: none"
 			>
 				<div className="uk-offcanvas-bar">
-					{/* <button
+					<button
 						className="uk-offcanvas-close"
 						type="button"
 						data-uk-close="ratio: 2;"
-					/> */}
+					/>
 					<nav
 						className="menu"
 						data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true"

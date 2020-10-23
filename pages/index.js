@@ -6,9 +6,22 @@ function Home() {
 			<MainScripts />
 			<div
 				className="pr__hero__wrap pr__dark"
-				style={{ backgroundImage: 'url("/images/stairs-inv.png")' }}
 				id="site-hero"
+				style={{
+					position: 'relative',
+				}}
 			>
+				<div
+					className="background"
+					style={{
+						backgroundImage: 'url("/images/stairs-inv.png")',
+						position: 'absolute',
+						height: '100vh',
+						width: '100%',
+						backgroundSize: 'cover',
+						backgroundPosition: 'center',
+					}}
+				></div>
 				<header
 					className="pr__header pr__dark"
 					data-uk-sticky="top: 100vh; animation: uk-animation-slide-top;"
@@ -16,7 +29,7 @@ function Home() {
 					<div className="uk-container">
 						<div className="inner">
 							<div className="logo">
-								<a href="home_03.html">
+								<a href="#">
 									<div className="brand" />
 								</a>
 							</div>
@@ -57,7 +70,9 @@ function Home() {
 							<div className="hero-content uk-grid" data-uk-grid>
 								<div className="uk-width-2-3@s">
 									<hr className="line pr__hr__primary" />
-									<h2 className="title uk-heading-hero">The Future of Marketing, Now.</h2>
+									<h2 className="title uk-heading-hero">
+										The Future of Influencer Marketing, Now.
+									</h2>
 									<a
 										className="button uk-button uk-button-large uk-button-default uk-margin-top"
 										uk-toggle="target: #pr__contact__form"
@@ -204,6 +219,20 @@ function Home() {
 								>
 									<div className="item service-box style-two uk-active">
 										<div className="inner">
+											<i className="overlay-icon icon pr-line-chat" />
+											<div className="content">
+												<h5 className="title uk-h5">Social Media</h5>
+												<p className="description">
+													Raise brand awareness and create community around your products
+													with organic reach through influencer activations/campaigns.
+												</p>
+												<i className="more icon pr-arrow-right" />
+											</div>
+											<a href="#" className="link uk-position-cover" />
+										</div>
+									</div>
+									<div className="item service-box style-two">
+										<div className="inner">
 											<i className="overlay-icon icon pr-line-strategy" />
 											<div className="content">
 												<h5 className="title uk-h5">Digital Strategy</h5>
@@ -272,20 +301,6 @@ function Home() {
 											<a href="#" className="link uk-position-cover" />
 										</div>
 									</div>
-									<div className="item service-box style-two">
-										<div className="inner">
-											<i className="overlay-icon icon pr-line-chat" />
-											<div className="content">
-												<h5 className="title uk-h5">Social Media</h5>
-												<p className="description">
-													Raise brand awareness and create community around your products
-													with organic reach.
-												</p>
-												<i className="more icon pr-arrow-right" />
-											</div>
-											<a href="#" className="link uk-position-cover" />
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -336,7 +351,7 @@ function Home() {
 												<h3 className="title uk-h4">Check Check</h3>
 												<p className="category">Youtube Campaign</p>
 												<a
-													href="https://youtu.be/gVEgHhPzqdE"
+													href="https://youtu.be/SrMr8I74BU0"
 													className="link uk-position-cover"
 												/>
 											</div>
@@ -353,7 +368,7 @@ function Home() {
 												<h3 className="title uk-h4">Fiverr</h3>
 												<p className="category">Youtube Campaign</p>
 												<a
-													href="https://youtu.be/_IFohFBnitY"
+													href="https://youtu.be/gVEgHhPzqdE"
 													className="link uk-position-cover"
 												/>
 											</div>
@@ -370,7 +385,7 @@ function Home() {
 												<h3 className="title uk-h4">StockX</h3>
 												<p className="category">Youtube Campaign</p>
 												<a
-													href="https://youtu.be/BxYGl5KIKao"
+													href="https://youtu.be/_IFohFBnitY"
 													className="link uk-position-cover"
 												/>
 											</div>
@@ -387,7 +402,7 @@ function Home() {
 												<h3 className="title uk-h4">Stadium Goods</h3>
 												<p className="category">Youtube Campaign</p>
 												<a
-													href="https://youtu.be/SrMr8I74BU0"
+													href="https://youtu.be/BxYGl5KIKao"
 													className="link uk-position-cover"
 												/>
 											</div>
