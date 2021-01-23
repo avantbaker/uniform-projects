@@ -136,62 +136,6 @@ function Home() {
 				</section>
 			</div>
 			<div className="pr__content" id="site-content">
-				<div
-					className="pr__clients__logos pr__section  pr__dark uk-section uk-section-muted"
-					id="pr__clients__logos"
-				>
-					<div className="uk-container">
-						<div className="section-outer">
-							<div className="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large">
-								<div className="item logo">
-									<div className="inner">
-										<img
-											src="/images/logos/white/check-check-white.png"
-											alt="Check Check"
-											data-uk-svg
-										/>
-									</div>
-								</div>
-								<div className="item logo">
-									<div className="inner">
-										<img
-											src="/images/logos/white/ebay-white.png"
-											alt="Ebay"
-											data-uk-svg
-										/>
-									</div>
-								</div>
-								<div className="item logo">
-									<div className="inner">
-										<img
-											src="/images/logos/white/fiverr-white.png"
-											alt="Fiverr"
-											data-uk-svg
-										/>
-									</div>
-								</div>
-								<div className="item logo">
-									<div className="inner">
-										<img
-											src="/images/logos/white/stadium-goods-white.png"
-											alt="Stadium Goods"
-											data-uk-svg
-										/>
-									</div>
-								</div>
-								<div className="item logo">
-									<div className="inner">
-										<img
-											src="/images/logos/white/stockx-white.png"
-											alt="StockX"
-											data-uk-svg
-										/>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 				<section
 					className="pr__services pr__section uk-section uk-section-large pr__dark"
 					style={{ backgroundColor: '#1b1b1b' }}
@@ -325,6 +269,324 @@ function Home() {
 										{/* <a className="button uk-button uk-button-default" href="#">
 											View all
 										</a> */}
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							className="pr__clients__logos pr__section  pr__dark uk-section uk-section-muted pt-none"
+							id="pr__clients__logos"
+						>
+							<div className="uk-container">
+								<div className="section-outer">
+									<div className="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large">
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/logos/white/check-check-white.png"
+													alt="Check Check"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/logos/white/ebay-white.png"
+													alt="Ebay"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/logos/white/fiverr-white.png"
+													alt="Fiverr"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/logos/white/stadium-goods-white.png"
+													alt="Stadium Goods"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/logos/white/stockx-white.png"
+													alt="StockX"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							className="pr__clients__logos pr__section  pr__dark uk-section uk-section-muted pt-none"
+							id="pr__clients__logos"
+						>
+							<div className="uk-container">
+								<div className="section-outer">
+									<div className="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large">
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/adidas-white.png"
+													alt="Adidas"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/anker-white.png"
+													alt="Anker"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/bape-white.png"
+													alt="Bape"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/beats-white.png"
+													alt="Beats"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/browns-white.png"
+													alt="Browns"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							className="pr__clients__logos pr__section  pr__dark uk-section uk-section-muted pt-none"
+							id="pr__clients__logos"
+						>
+							<div className="uk-container">
+								<div className="section-outer">
+									<div className="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large">
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/cariuma-white.png"
+													alt="Cariuma"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/casper-white.png"
+													alt="Casper"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/esntls-white.png"
+													alt="esntls"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/farfetch-white.png"
+													alt="FarFetch"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/fashionnova-white.png"
+													alt="Fashionova"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							className="pr__clients__logos pr__section  pr__dark uk-section uk-section-muted pt-none"
+							id="pr__clients__logos"
+						>
+							<div className="uk-container">
+								<div className="section-outer">
+									<div className="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large">
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/footlocker-white.png"
+													alt="Footlocker"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/leverage-white.png"
+													alt="Leverage"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/nike-white.png"
+													alt="Nike"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/pacsun-white.png"
+													alt="Pacsun"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/privacy-white.png"
+													alt="Privacy"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							className="pr__clients__logos pr__section  pr__dark uk-section uk-section-muted pt-none"
+							id="pr__clients__logos"
+						>
+							<div className="uk-container">
+								<div className="section-outer">
+									<div className="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large">
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/pubg-white.png"
+													alt="Pubg"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/quip-white.png"
+													alt="Quip"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/reshoevn8r-white.png"
+													alt="Reshoevn8r"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/squarespace-white.png"
+													alt="Squarespace"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/talentless-white.png"
+													alt="Talentless"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							className="pr__clients__logos pr__section  pr__dark uk-section uk-section-muted pt-none"
+							id="pr__clients__logos"
+						>
+							<div className="uk-container">
+								<div className="section-outer">
+									<div className="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large">
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/tiktok-white.png"
+													alt="TikTok"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/uber-white.png"
+													alt="Uber"
+													data-uk-svg
+												/>
+											</div>
+										</div>
+										<div className="item logo">
+											<div className="inner">
+												<img
+													src="/images/uniform-projects/vmoda-white.png"
+													alt="vmoda"
+													data-uk-svg
+												/>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
